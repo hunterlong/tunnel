@@ -1,10 +1,9 @@
-server_addr: SERVER_IP:5223
+server_addr: server.com:5223
 tunnels:
   webui:
     proto: http
-    addr: localhost:8080
-    auth: user:password
-    host: webui.my-tunnel-host.com
+    addr: 0.0.0.0:8080
+    host: web1.hello.io
   ssh:
     proto: tcp
     addr: 192.168.0.5:22
